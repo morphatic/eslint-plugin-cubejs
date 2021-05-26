@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-cubejs",
+  "version": "0.1.0",
+  "description": "A plugin to enable ESLint (https://eslint.org) for CubeJS (https://cube.dev) projects",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Morgan Benton <morgan.benton@gmail.com> (https://morphatic.com)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/morphatic/eslint-plugin-cubejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morphatic/eslint-plugin-cubejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morphatic/eslint-plugin-cubejs/issues"
+  },
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
