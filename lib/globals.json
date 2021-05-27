@@ -1,0 +1,6 @@
+{
+  "CUBE": "readonly",
+  "cube": "readonly",
+  "FILTER_PARAMS": "readonly",
+  "SQL_UTILS": "readonly"
+}

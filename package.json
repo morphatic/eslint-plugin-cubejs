@@ -3,14 +3,20 @@
   "version": "0.0.0-development",
   "description": "A plugin to enable ESLint (https://eslint.org) for CubeJS (https://cube.dev) projects",
   "keywords": [
+    "cube",
+    "cube.js",
+    "cubejs",
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
   "author": "Morgan Benton <morgan.benton@gmail.com> (https://morphatic.com)",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "build": "babel --out-dir dist",
+    "build": "babel lib --out-dir dist",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "semantic-release": "semantic-release",
     "test": "mocha tests --recursive"
